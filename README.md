@@ -2,7 +2,7 @@
 
 ## Overview
 
-This sample demonstrates how to customize the appearance of Syncfusion Blazor DataGrid columns using templates. The implementation focuses on modifying both column headers and column data presentation through template-based rendering. By using templates, developers can replace the standard text-based rendering with customized layouts, images, formatted content, icons, and business-specific visual elements while preserving the DataGrid's data-binding capabilities. This approach is useful when applications require a richer user experience than standard tabular rendering can provide.
+This sample demonstrates how to customize the appearance of Syncfusion [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) columns using templates. The implementation focuses on modifying both column headers and column data presentation through template-based rendering. By using templates, developers can replace the standard text-based rendering with customized layouts, images, formatted content, icons, and business-specific visual elements while preserving the DataGrid's data-binding capabilities. This approach is useful when applications require a richer user experience than standard tabular rendering can provide.
 
 ## Key Features
 
