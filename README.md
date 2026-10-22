@@ -35,10 +35,9 @@ This sample demonstrates how to customize the appearance of Syncfusion [Blazor D
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the Server project directory.
+3. Restore and run the project.
 
 ```bash
-cd Server
 dotnet restore
 dotnet run
 ```
@@ -47,7 +46,12 @@ dotnet run
 
 ## Project Structure
 
-- `Client/Pages/Index.razor` — contains the DataGrid implementation, column definitions, header template configuration, and column template rendering logic. 
+This sample uses the .NET Blazor WebAssembly (standalone) project structure:
+
+- `Program.cs` — app entry point; registers the Syncfusion Blazor service.
+- `Pages/Home.razor` — contains the DataGrid implementation, column definitions, header template configuration, and column template rendering logic.
+- `EmployeeData.cs` — sample Employee data model.
+- `Layout/` and `wwwroot/` — layout components and static assets.
 
 ## Support and Feedback
 
